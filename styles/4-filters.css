@@ -6,7 +6,6 @@
     border: 1px #DDDDDD;
     border-radius: 4px;
     border-style: solid;
-    position: relative;
 }
 
 /* style Search button */
@@ -18,9 +17,9 @@
     width: 20%;
     border: none;
     border-radius: 4px;
-    position: absolute;
-    right: 30px;
-    top: 11px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 11px;
 }
 
 .btn:hover {

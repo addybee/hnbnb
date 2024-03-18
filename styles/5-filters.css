@@ -19,8 +19,10 @@
     border: none;
     border-radius: 4px;
     position: absolute;
+    top: 50%;
     right: 30px;
-    top: 11px;
+    margin-top: -24px;
+    box-sizing: border-box;
 }
 .btn:hover {
     opacity: 90%;
@@ -32,6 +34,8 @@
     height: 100%;
     width: 25%;
     display: inline-block;
+    position: relative;
+    text-align: center;
 }
 
 .locations {
@@ -40,8 +44,8 @@
 .amenities h3,
 .locations h3 {
     font-weight: 600;
-    text-align: center;
-    margin-bottom: 0px;
+    box-sizing: border-box;
+    margin-bottom: 0;
     width: 100%;
 }
 
@@ -49,26 +53,7 @@
 .locations h4 {
     font-weight: 400;
     font-size: 14px;
-    text-align: center;
-    margin: 0px;
+    box-sizing: border-box;
+    margin-top: 0;
     width: 100%;
-}
-
-/*
-  ========================================
-  Clearfix
-  ========================================
-*/
-.group:before,
-.group:after {
-	content: "";
-	display: table;
-}
-
-.group:after {
-	clear: both;
-}
-
-.group {
-	clear: both;
 }

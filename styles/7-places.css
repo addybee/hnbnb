@@ -4,12 +4,10 @@
     font-size: 30px;
     text-align: center;
     position: relative;
-    background-color: antiquewhite;
 }
 
 .places h1 {
     text-align: left;
-    background: #FF5A5F;
     font-size: 30px;
 }
 .places article {
